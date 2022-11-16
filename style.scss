@@ -1,0 +1,110 @@
+body {
+    section {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        height: 200px;
+
+        #france {
+            width: 21%;
+            display: flex;
+
+            .frd {
+                background-color: red;
+                width: 33%;
+            }
+
+            .frm {
+                background-color: white;
+                width: 33%;
+            }
+
+            .frg {
+                background-color: blue;
+                width: 33%;
+
+            }
+        }
+
+        #allemagne {
+            width: 21%;
+            display: flex;
+            flex-direction: column;
+
+            .alg {
+                background-color: black;
+                height: 33%;
+            }
+
+            .alm {
+                background-color: red;
+                height: 33%;
+            }
+
+            .ald {
+                background-color: yellow;
+                height: 33%;
+            }
+        }
+
+        #canada {
+            width: 21%;
+            display: flex;
+
+            .cag {
+                background-color: red;
+                width: 30%;
+            }
+
+            .cam {
+                background-color: white;
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    font-size: 5em;
+                    color: red;
+
+                }
+            }
+
+            .cad {
+                background-color: red;
+                width: 30%;
+
+            }
+        }
+
+        #pays {
+            width: 21%;
+            display: flex;
+            flex-direction: column;
+
+            .pag {
+                background-color: red;
+                height: 20%;
+            }
+
+            .pam {
+                background-color: white;
+                height: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    font-size: 5em;
+                    color: green;
+                }
+            }
+
+            .pad {
+                background-color: red;
+                height: 20%;
+            }
+        }
+
+    }
+}

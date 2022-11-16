@@ -1,0 +1,86 @@
+body section {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+body section #france {
+  width: 21%;
+  display: flex;
+}
+body section #france .frd {
+  background-color: red;
+  width: 33%;
+}
+body section #france .frm {
+  background-color: white;
+  width: 33%;
+}
+body section #france .frg {
+  background-color: blue;
+  width: 33%;
+}
+body section #allemagne {
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+}
+body section #allemagne .alg {
+  background-color: black;
+  height: 33%;
+}
+body section #allemagne .alm {
+  background-color: red;
+  height: 33%;
+}
+body section #allemagne .ald {
+  background-color: yellow;
+  height: 33%;
+}
+body section #canada {
+  width: 21%;
+  display: flex;
+}
+body section #canada .cag {
+  background-color: red;
+  width: 30%;
+}
+body section #canada .cam {
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section #canada .cam i {
+  font-size: 5em;
+  color: red;
+}
+body section #canada .cad {
+  background-color: red;
+  width: 30%;
+}
+body section #pays {
+  width: 21%;
+  display: flex;
+  flex-direction: column;
+}
+body section #pays .pag {
+  background-color: red;
+  height: 20%;
+}
+body section #pays .pam {
+  background-color: white;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section #pays .pam i {
+  font-size: 5em;
+  color: green;
+}
+body section #pays .pad {
+  background-color: red;
+  height: 20%;
+}/*# sourceMappingURL=style.css.map */
